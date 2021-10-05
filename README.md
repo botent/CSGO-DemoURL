@@ -21,7 +21,7 @@ And of course this project itself is open source with a [public repository](http
 This project requires [Python >3.0](https://python.org/) to run.
 
 ```sh
-pip install csgo-demourl
+clone https://github.com/botent/CSGO-DemoURL.git
 ```
 
 
