@@ -39,6 +39,7 @@ MANIFEST
 secrets_ac.json
 secrets.json
 cm_servers.json
+info.json
 
 # Installer logs
 pip-log.txt
