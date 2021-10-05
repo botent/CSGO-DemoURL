@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# CSGO-DemoURL
+## _The easy way to develop your next CSGO Project_
 
-You can use the [editor on GitHub](https://github.com/botent/CSGO-DemoURL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Steam is a bit tough when it comes to fetching info. However, they are cool with community projects and this aims to enable other developers save time and efforts (and preferably spend more time parsing demo file data than getting the file itself ;-))
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation
 
-### Markdown
+This project requires [Python >3.0](https://python.org/) to run.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+clone https://github.com/botent/CSGO-DemoURL.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Usage
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/botent/CSGO-DemoURL/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Simple. After cloning, just edit the ```main.py``` file to set up ```authenticatorCode()```, ```pr_login()```, ```matchInfo()``` methods. It is rather self explanatory! 
 
-### Support or Contact
+## Help
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+I am more than happy to help in any way I can. Feel free to reach out to me via Twitter (@KumarPeri)
+
+![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Tweet%20to%20Me&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FKumarPeri)
+
+## Tech
+
+This projects uses a number of open source projects to work properly:
+
+- [Steam](https://github.com/ValvePython/steam) - ValvePython/Steam
+- [CSGO](https://github.com/ValvePython/csgo) - ValvePython/CSGO
+- [Gevent](https://github.com/gevent/gevent) - gevent is a coroutine -based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop.
+
+
+And of course this project itself is open source with a [public repository](https://github.com/botent/CSGO-DemoURL) on GitHub.
+
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+
