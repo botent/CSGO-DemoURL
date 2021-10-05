@@ -1,0 +1,17 @@
+cachetools==4.2.4
+certifi==2021.5.30
+charset-normalizer==2.0.6
+csgo==1.0.0
+gevent==21.8.0
+gevent-eventemitter==2.1
+greenlet==1.1.2
+idna==3.2
+protobuf==3.18.0
+pycryptodomex==3.10.4
+requests==2.26.0
+six==1.16.0
+steam==1.2.0
+urllib3==1.26.7
+vdf==3.4
+zope.event==4.5.0
+zope.interface==5.4.0
