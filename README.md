@@ -1,6 +1,6 @@
 # CSGO-DemoURL
 ## _The easy way to develop your next CSGO Project_
-[![GitHub issues](https://img.shields.io/github/issues/botent/CSGO-DemoURL?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL/issues)  [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL) [![Version](https://img.shields.io/badge/Version-1.0-informational?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL)
+[![GitHub issues](https://img.shields.io/github/issues/botent/CSGO-DemoURL?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL/issues)  [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL) [![Version](https://img.shields.io/badge/Version-1.1-informational?style=for-the-badge)](https://github.com/botent/CSGO-DemoURL)
 
 Simply get demo file URL of a CSGO Match (which happens to be the toughest part, for some!)
 
