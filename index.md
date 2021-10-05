@@ -20,7 +20,7 @@ Simple. After cloning, just edit the ```main.py``` file to set up ```authenticat
 
 I am more than happy to help in any way I can. Feel free to reach out to me via Twitter (@KumarPeri)
 
-![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Tweet%20to%20Me&logo=twitter&style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2FKumarPeri)
+![Twitter Follow](https://img.shields.io/twitter/follow/KumarPeri?color=blue&logo=twitter&style=for-the-badge)
 
 ## Tech
 
