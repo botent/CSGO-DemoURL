@@ -20,10 +20,9 @@ def matchInfo():
     token = matchinfo['token']
 
     info = worker.getMatchInfo(matchid=matchid, outcomeid=outcomeid, token=token)
-    
+    result = json.loads(MessageToJson(info))['matches'][0]['roundstatsall'][23]['map']
     worker.close() # Optional
-    return info
+    return result
 
-result = matchInfo()
-res = MessageToJson(result)
-json.dump(res, open('./info.json', 'w'))
+
+
