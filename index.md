@@ -8,13 +8,34 @@ Steam is a bit tough when it comes to fetching info. However, they are cool with
 This project requires [Python >3.0](https://python.org/) to run.
 
 ```sh
-clone https://github.com/botent/CSGO-DemoURL.git
+git clone https://github.com/botent/CSGO-DemoURL.git
 ```
-
+or
+```sh
+pip install csgo-demourl
+```
 
 ## Usage
 
-Simple. After cloning, just edit the ```main.py``` file to set up ```authenticatorCode()```, ```pr_login()```, ```matchInfo()``` methods. It is rather self explanatory! 
+1. Initialize the ```SteamWorker()```  instance from ```core.py```
+2. Get SteamAuthenticator Code from ```authenticatorCode(secrets=PATH_TO_SECRETS.JSON FILE)``` method
+3. Login using ```pr_login(uname=USERNAME, pword=PASSWORD, code=STEAM_AUTHENTICATOR_CODE)``` method
+4. Now it is optional but advised to define a function to return Match Demo File URL as ---
+```python
+def matchInfo():
+    matchinfo = worker.getSharecodeInfo(matchcode=MATCH_SHARE_CODE)
+    matchid = matchinfo['matchid']
+    outcomeid = matchinfo['outcomeid']
+    token = matchinfo['token']
+
+    info = worker.getMatchInfo(matchid=matchid, outcomeid=outcomeid, token=token)
+    result = json.loads(MessageToJson(info))['matches'][0]['roundstatsall'][23]['map']
+    worker.close() # Optional (to logout and disconnect from Steam Account)
+    return result
+    
+resp = matchInfo() # This gives you the demo URL
+```
+
 
 ## Help
 
