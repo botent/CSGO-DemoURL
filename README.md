@@ -56,3 +56,6 @@ MIT
 **Free Software, Hell Yeah!**
 
 
+## Pages
+
+[GitHub Pages](https://botent.github.io/CSGO-DemoURL/)
