@@ -22,7 +22,7 @@ pip install csgo-demourl
 3. Login using ```pr_login(uname=USERNAME, pword=PASSWORD, code=STEAM_AUTHENTICATOR_CODE)``` method
 4. Now it is optional but advised to define a function to return Match Demo File URL as ---
 
-```python
+```Python
 
 def matchInfo():
     matchinfo = worker.getSharecodeInfo(matchcode=MATCH_SHARE_CODE)
